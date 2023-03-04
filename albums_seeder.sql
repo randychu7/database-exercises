@@ -14,3 +14,4 @@ VALUES
     ('Shania Twain', 'Come On Over', '1997-11-04', 39.0, 'Country'),
     ('Led Zeppelin', 'Led Zeppelin IV', '1971-11-08', 37.0, 'Rock'),
     ('Celine Dion', 'Falling into You', '1996-03-11', 32.0, 'Pop');
+
