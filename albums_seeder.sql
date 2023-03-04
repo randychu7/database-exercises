@@ -3,6 +3,7 @@ USE codeup_test_db;
 
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES
+
     ('Michael Jackson', 'Thriller', '1982-11-30', 66.0, 'Pop'),
     ('AC/DC', 'Back in Black', '1980-07-25', 50.0, 'Hard rock'),
     ('Whitney Houston', 'The Bodyguard', '1992-11-17', 45.7, 'Soundtrack'),
