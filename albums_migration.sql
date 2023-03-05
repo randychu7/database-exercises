@@ -14,5 +14,3 @@ CREATE TABLE albums (
 
 SELECT  * FROM albums;
 
-
-
