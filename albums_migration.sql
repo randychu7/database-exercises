@@ -16,5 +16,3 @@ SELECT  * FROM albums;
 
 
 
-
-
