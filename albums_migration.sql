@@ -12,7 +12,6 @@ CREATE TABLE albums (
                        PRIMARY KEY (id)
 );
 
-
 SELECT  * FROM albums;
 
 
