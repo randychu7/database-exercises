@@ -55,6 +55,7 @@ GROUP BY departments.dept_name, Department_Manager, salaries.salary
 ORDER BY `Department Name` asc;
 
 
+
 #
 # SELECT d.dept_name, CONCAT(e.first_name, ' ', e.last_name) AS manager_name, s.salary
 # FROM salaries AS s
