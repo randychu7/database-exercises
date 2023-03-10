@@ -5,7 +5,6 @@ SELECT * FROM titles;
 SELECT * FROM dept_emp;
 SELECT * FROM departments;
 
-
 -- Query 1
 USE employees;
 SELECT departments.dept_name, CONCAT(employees.first_name, ' ', employees.last_name), salaries.salary
