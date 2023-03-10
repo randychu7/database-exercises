@@ -18,6 +18,8 @@ FROM salaries
 
 
 
+
+
 #
 SELECT departments.dept_name AS 'Department Name', CONCAT(employees.first_name, ' ' , employees.last_name) AS 'Department Manager'
 FROM departments
