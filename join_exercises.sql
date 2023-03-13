@@ -15,7 +15,6 @@ FROM salaries
          WHERE salaries.to_date = '9999-01-01'
         ORDER BY first_name desc;
 
-
 #
 SELECT departments.dept_name AS 'Department Name', CONCAT(employees.first_name, ' ' , employees.last_name) AS 'Department Manager'
 FROM departments
