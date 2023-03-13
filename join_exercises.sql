@@ -33,6 +33,7 @@ WHERE employees.gender = 'F' AND dept_manager.to_date = '9999-01-01';
 # JOIN dept_emp on titles.emp_no = dept_emp.emp_no
 # JOIN employees on employees.emp_no = dept_emp.emp_no;
 
+
 SELECT titles.title, COUNT(*) AS Total
 FROM titles
          JOIN dept_emp ON dept_emp.emp_no = titles.emp_no
