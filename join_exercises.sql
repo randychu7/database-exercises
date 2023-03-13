@@ -20,6 +20,7 @@ FROM departments
 JOIN dept_emp on departments.dept_no = dept_emp.dept_no
 JOIN employees on employees.emp_no = dept_emp.emp_no;
 
+
 SELECT departments.dept_name AS 'Department Name', CONCAT(employees.first_name, ' ', employees.last_name) AS 'Department Manager'
 FROM departments
 JOIN dept_manager on departments.dept_no = dept_manager.dept_no
