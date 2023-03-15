@@ -52,3 +52,4 @@ GROUP BY departments.dept_name, Department_Manager, salaries.salary
 ORDER BY `Department Name` asc;
 
 
+
