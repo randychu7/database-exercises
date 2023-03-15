@@ -50,3 +50,5 @@ JOIN dept_manager on employees.emp_no = dept_manager.emp_no
 WHERE salaries.to_date = '9999-01-01' AND dept_manager.to_date = '9999-01-01'
 GROUP BY departments.dept_name, Department_Manager, salaries.salary
 ORDER BY `Department Name` asc;
+
+
