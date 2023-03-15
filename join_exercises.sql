@@ -42,8 +42,6 @@ GROUP BY titles.title
 ORDER BY Total DESC;
 
 
-
-
 SELECT departments.dept_name AS 'Department Name', CONCAT(employees.first_name, ' ', employees.last_name) AS Department_Manager, salaries.salary AS 'Salary'
 FROM departments
 JOIN dept_emp on departments.dept_no = dept_emp.dept_no
